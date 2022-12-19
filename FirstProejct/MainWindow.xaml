@@ -1,0 +1,35 @@
+﻿<Window x:Class="FirstProejct.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstProejct"
+        mc:Ignorable="d"
+        Title="คำนวณราคาของที่อยากได้" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="incomeTxt" Content="รายได้" HorizontalAlignment="Left" Margin="72,27,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="expensesTxt" Content="รายจ่าย" HorizontalAlignment="Left" Margin="72,103,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="GoalTxt" Content="ราคาของที่อยากได้" HorizontalAlignment="Left" Margin="72,191,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="incomeTxt_Copy2" Content="บาท/วัน" HorizontalAlignment="Left" Margin="635,31,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="incomeTxt_Copy3" Content="บาท/วัน" HorizontalAlignment="Left" Margin="635,107,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="incomeTxt_Copy4" Content="บาท" HorizontalAlignment="Left" Margin="635,191,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="incomeTxt_Copy5" Content="วัน" HorizontalAlignment="Left" Margin="635,284,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <Label x:Name="incomeTxt_Copy6" Content="คุณต้องเก็บเงินทั้งหมด" HorizontalAlignment="Left" Margin="229,284,0,0" VerticalAlignment="Top" FontSize="30"/>
+        <TextBox x:Name="incomeBox" HorizontalAlignment="Left" Margin="181,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="30"/>
+        <TextBox x:Name="expensesBox" HorizontalAlignment="Left" Margin="181,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="449" FontSize="30"/>
+        <TextBox x:Name="goalBox" HorizontalAlignment="Left" Margin="306,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="30"/>
+        <TextBox x:Name="resultBox" HorizontalAlignment="Left" Margin="505,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" FontSize="30" RenderTransformOrigin="0.5,0.5" TextChanged="TextBox_TextChanged" Text=" ">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.202"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="-0.396"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="calculateBtn" Content="คำนวณ" HorizontalAlignment="Left" Margin="82,284,0,0" VerticalAlignment="Top" FontSize="30" Width="132" Click="calculateBtn_Click" Height="50"/>
+        <Button x:Name="clearBtn" Content="ล้างข้อมูล" HorizontalAlignment="Left" Margin="82,354,0,0" VerticalAlignment="Top" FontSize="30" Width="132" Click="CleareBtn_Click" Height="55"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\bin\Debug\FirstProejct.exe.config
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\bin\Debug\FirstProejct.exe
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\bin\Debug\FirstProejct.pdb
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.csproj.AssemblyReference.cache
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.csproj.SuggestedBindingRedirects.cache
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\MainWindow.g.cs
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\App.g.cs
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct_MarkupCompile.cache
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct_MarkupCompile.lref
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\MainWindow.baml
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.g.resources
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.Properties.Resources.resources
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.csproj.GenerateResource.cache
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.csproj.CoreCompileInputs.cache
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.exe
+C:\Users\chale\Documents\Desktop\FirstProejct\FirstProejct\obj\Debug\FirstProejct.pdb
