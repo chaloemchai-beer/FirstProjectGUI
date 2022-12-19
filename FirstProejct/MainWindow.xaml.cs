@@ -57,19 +57,6 @@ namespace FirstProejct
                 MessageBox.Show("โปรดกรอกข้อมุล (ราคาของที่อยากได้)");
                 return false;
             }
-            else if(Regex.IsMatch(income, "^[a-zA-Z0-9ก-ฮ ]*$"))
-            {
-                MessageBox.Show("โปรดกรอกข้อมูลเป็นตัวเลข (รายได้)");
-                return false;
-            }else if(Regex.IsMatch(expenses, "^[a-zA-Z0-9ก-ฮ ]*$", RegexOptions.IgnoreCase))
-            {
-                MessageBox.Show("โปรดกรอกข้อมูลเป็นตัวเลข (ค่าใช้จ่าย)");
-                return false;
-            }else if(Regex.IsMatch(goal, "^[a-zA-Z0-9ก-ฮ ]*$", RegexOptions.IgnoreCase))
-            {
-                MessageBox.Show("โปรดกรอกข้อมูลเป็นตัวเลข (ราคาของที่อยากได้)");
-                return false;
-            }
             else
             {
                 return true;
